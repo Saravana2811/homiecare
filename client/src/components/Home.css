@@ -134,7 +134,7 @@
     width: 100%;
   }
   .home-video img, .home-video video {
-    max-width: 180px;   /* or 100% for full width */
+    max-width: 180px;   
     margin: 0 auto;
     border-radius: 12px;
   }
