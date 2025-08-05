@@ -1,0 +1,121 @@
+.card2 {
+  flex: 0 0 auto;
+  width: 200px;
+  background-color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 15px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.card2:hover {
+  transform: translateY(-5px);
+}
+
+.card2 img {
+width: 100%;
+height: 130px;
+object-fit: cover;
+border-radius: 8px;
+margin-bottom: 10px;
+}
+
+.head3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 8px 0 4px;
+  color: #000;
+}
+
+.card2 p {
+  color: #555;
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+
+.card2 button {
+  background-color: rgb(255, 0, 0);
+  color: white;
+  border: none;
+  padding: 8px 0;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.3s;
+}
+
+.card2 button:hover {
+  background-color: black;
+}
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background: white;
+  padding: 30px;
+  border-radius: 16px;
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.modal-content h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.modal-content h3 {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 20px 0 10px;
+  color: #333;
+}
+
+.button-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.button-group button {
+  background-color: #111;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 12px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button-group button:hover {
+  background-color: #333;
+}
+
+.close-btn {
+  background-color: #ff5c5c;
+  color: white;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  margin-top: 10px;
+}

@@ -1,0 +1,55 @@
+.netflix-banner {
+  background-image: url('https://static.vecteezy.com/system/resources/previews/004/903/169/non_2x/cleaning-bathroom-flat-vector.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 100%;                 
+  max-width: 1800px;           
+  margin: 60px auto;           
+  display: flex;
+     
+ 
+  border-radius: 0.09px;         
+  padding: 200px 20px;          
+  position: relative;
+  color: #fff;
+}
+
+.netflix-banner__contents {
+  text-align:left;
+  max-width: 600px;
+}
+
+.netflix-banner__title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  padding-bottom: 1rem;
+}
+
+.netflix-banner__description {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+  color: #fff;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
+}
+
+.netflix-banner_button {
+  cursor: pointer;
+  color: #fff;
+  background-color: rgba(51, 51, 51, 0.6);
+  border: none;
+  font-weight: 700;
+  border-radius: 0.3rem;
+  padding: 0.6rem 1.5rem;
+  font-size: 1rem;
+  transition: all 0.2s;
+}
+
+.netflix-banner_button:hover {
+  color: #000;
+  background-color: #e6e6e6;
+}
+.banner{
+  color:black;
+  font-size: 2.5rem;
+}

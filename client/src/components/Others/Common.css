@@ -1,0 +1,402 @@
+.ac-full-page {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Hero Section */
+.ac-hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+              url('https://130e178e8f8ba617604b-8aedd782b7d22cfe0d1146da69a52436.ssl.cf1.rackcdn.com/snowflakes-data-breach-victims-receive-ransom-demands-showcase_image-5-a-25576.jpg') no-repeat center center;
+  background-size: cover;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.ac-hero-content {
+  max-width: 800px;
+}
+
+.ac-hero h1 {
+  font-size: 3.5rem;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.ac-hero p {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.ac-cta-button {
+  background-color: #2a9d8f;
+  color: white;
+  border: none;
+  padding: 15px 40px;
+  font-size: 1.2rem;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.ac-cta-button:hover {
+  background-color: #21867a;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.ac-hero-p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  color: #fffffd;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.ac-services-full {
+  padding: 60px 20px;
+  background-color: #f8f9fa;
+}
+
+.ac-services-full h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #264653;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.ac-services-full h2::after {
+  content: '';
+  position: absolute;
+  bottom: -15px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 4px;
+  background-color: #2a9d8f;
+  border-radius: 2px;
+}
+
+.ac-services-horizontal {
+  display: flex;
+  overflow-x: auto;
+  padding: 30px 0;
+  gap: 30px;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  max-width: 100vw;
+}
+
+.ac-services-horizontal::-webkit-scrollbar {
+  height: 10px;
+}
+
+.ac-services-horizontal::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+
+/* Service Cards */
+.ac-service-card-full {
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  min-width: 300px;
+  max-width: 300px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  flex-shrink: 0;
+}
+
+.ac-service-card-full:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+.ac-service-icon-full {
+  font-size: 60px;
+  margin-bottom: 20px;
+  color: #2a9d8f;
+}
+
+.ac-service-card-full h3 {
+  color: #264653;
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.ac-service-card-full p {
+  color: #555;
+  text-align: center;
+  font-size: 1rem;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.ac-service-price-full {
+  color: #e76f51;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.ac-service-button-full {
+  background-color: #2a9d8f;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  width: 80%;
+}
+
+.ac-service-button-full:hover {
+  background-color: #21867a;
+}
+
+.ac-why-us1-h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #264653;
+  margin-bottom: 50px;
+}
+
+/* Why Us Section */
+.ac-why-us {
+  padding: 60px 20px;
+  background-color: rgb(227, 213, 213);
+}
+
+.ac-why-us1 {
+  padding: 60px 20px;
+  background-color: rgb(216, 216, 216);
+}
+.ac-why-us h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #264653;
+  margin-bottom: 50px;
+}
+
+.ac-benefits-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.ac-benefit-card {
+  background: #f8f9fa;
+  border-radius: 15px;
+  padding: 30px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.ac-benefit-card:hover {
+  transform: translateY(-10px);
+}
+
+.ac-benefit-icon {
+  font-size: 50px;
+  margin-bottom: 20px;
+  color: #2a9d8f;
+}
+
+.ac-benefit-card h3 {
+  color: #264653;
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.ac-benefit-card p {
+  color: #555;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+/* Contact CTA */
+.ac-contact-cta {
+  background: linear-gradient(135deg, #2a9d8f, #264653);
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.ac-contact-cta h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.ac-contact-cta p {
+  font-size: 1.3rem;
+  margin-bottom: 30px;
+  opacity: 0.9;
+}
+
+.ac-contact-button {
+  background-color: white;
+  color: #264653;
+  border: none;
+  padding: 15px 40px;
+  font-size: 1.2rem;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: bold;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.ac-contact-button:hover {
+  background-color: #f0f0f0;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+/* Booking Modal Styles */
+.ac-booking-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.ac-booking-modal-content {
+  background-color: white;
+  padding: 30px;
+  border-radius: 15px;
+  width: 90%;
+  max-width: 500px;
+  max-height: 90vh;
+  overflow-y: auto;
+  position: relative;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.ac-close-modal {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: none;
+  border: none;
+  font-size: 1.8rem;
+  cursor: pointer;
+  color: #666;
+  transition: color 0.3s;
+}
+
+.ac-close-modal:hover {
+  color: #e76f51;
+}
+
+.ac-booking-modal-content h2 {
+  color: #264653;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.ac-service-price-modal {
+  color: #e76f51;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 1.2rem;
+}
+
+.ac-form-group {
+  margin-bottom: 20px;
+}
+
+.ac-form-group label {
+  display: block;
+  margin-bottom: 8px;
+  color: #555;
+  font-weight: 500;
+}
+
+.ac-form-group input,
+.ac-form-group textarea {
+  width: 100%;
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border-color 0.3s;
+}
+
+.ac-form-group input:focus,
+.ac-form-group textarea:focus {
+  outline: none;
+  border-color: #2a9d8f;
+}
+
+.ac-submit-booking {
+  background-color: #2a9d8f;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  width: 100%;
+  transition: background-color 0.3s;
+  margin-top: 10px;
+}
+
+.ac-submit-booking:hover {
+  background-color: #21867a;
+}
+
+/* Responsive adjustments for modal */
+@media (max-width: 500px) {
+  .ac-booking-modal-content {
+    width: 95%;
+    padding: 20px 15px;
+  }
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .ac-hero h1 {
+    font-size: 2.5rem;
+  }
+  
+  .ac-hero p {
+    font-size: 1.2rem;
+  }
+  
+  .ac-services-full h2,
+  .ac-why-us h2,
+  .ac-contact-cta h2 {
+    font-size: 2rem;
+  }
+  
+  .ac-benefits-grid {
+    grid-template-columns: 1fr;
+  }
+}

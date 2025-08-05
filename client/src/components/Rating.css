@@ -1,0 +1,35 @@
+.rate {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.rate img {
+  display: block;
+  margin: 0 auto;
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.rate h1 {
+  text-align: center;
+  margin: 0;
+  font-size: 1.5rem;
+  color: #222;
+}
+.rate-group {
+  display: flex;
+  flex-direction: row;      /* Place text next to image */
+  align-items: center;
+  gap: 18px;
+}
+.r1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 13px;
+}

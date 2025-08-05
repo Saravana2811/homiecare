@@ -1,0 +1,95 @@
+.netflix-home {
+  background-color: #181818;
+  color: white;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.section-title {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.trending-section {
+  margin-bottom: 40px;
+}
+
+.trending-row {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  padding: 10px 0;
+}
+
+.trending-row::-webkit-scrollbar {
+  display: none; /* Hide scrollbar */
+}
+
+.trending-item {
+  min-width: 200px;
+  flex-shrink: 0;
+  text-align: center;
+}
+
+.trending-item img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.trending-title {
+  margin-top: 10px;
+  font-size: 1rem;
+  color: white;
+}
+
+/* ====== UPDATED CAROUSEL SECTION ====== */
+.carousel-section {
+  margin-top: 40px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.carousel-container {
+  width: 100%;
+  max-width: 10000px;
+}
+
+.carousel-item {
+  height: 700px; /* Adjust height as needed */
+  position: relative;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.carousel .legend {
+  background: rgba(0, 0, 0, 0.6);
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  border-radius: 0 0 12px 12px;
+  bottom: 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .carousel-item {
+    height: 300px;
+  }
+
+  .section-title {
+    font-size: 1.5rem;
+  }
+
+  .carousel .legend {
+    font-size: 1rem;
+  }
+}
