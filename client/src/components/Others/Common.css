@@ -6,7 +6,6 @@
   flex-direction: column;
 }
 
-/* Hero Section */
 .ac-hero {
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
               url('https://130e178e8f8ba617604b-8aedd782b7d22cfe0d1146da69a52436.ssl.cf1.rackcdn.com/snowflakes-data-breach-victims-receive-ransom-demands-showcase_image-5-a-25576.jpg') no-repeat center center;

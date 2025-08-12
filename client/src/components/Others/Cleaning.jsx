@@ -127,7 +127,7 @@ const Cleaning = () => {
   };
 
   return (
-    <div className="ac-full-page">
+    <div className="cleaning-full-page">
 
       <Navbar3 />
       <div className="ac-hero">
