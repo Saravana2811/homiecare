@@ -115,7 +115,7 @@ const PaymentMethods = () => {
         servicerName
       };
 
-      const response = await fetch('http://localhost:5000/api/payment/confirm', {
+      const response = await fetch('https://homiecare-1.onrender.com/api/payment/confirm', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
